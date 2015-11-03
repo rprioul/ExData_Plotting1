@@ -14,6 +14,5 @@ setwd("C:/Users/Rémy/Documents/ExData_Plotting1/")
 
 data$Global_active_power <- as.numeric(data$Global_active_power)
 png(file="plot1.png", width = 480, height = 480)
-hist(data$Global_active_power,col="red",main="Global Active Power",
-     xlab="Global Active Power (kilowatts)")
+hist(data$Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
 dev.off()
